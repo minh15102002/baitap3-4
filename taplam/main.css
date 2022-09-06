@@ -1,0 +1,115 @@
+.a{
+    color: red;
+   /* margin: 50%; */
+   margin-top: 50px ;
+   padding-left: 50%;
+   margin-bottom: 10px;
+   /* padding-left: 50%; */
+    
+    /* font-size :30px; */
+}
+.class{
+    /* width: 100%;
+    height: 0; */
+    color:blue;
+    font-size :30px;
+    /* padding: 10px 30px 10px 45%; */
+    padding-left: 42%;
+    left: 30%;
+    
+}
+#id{
+    color:blue;
+    font-size :30px;
+}
+.li{
+/* width: 500px; */
+/* margin: 100%;
+padding: 20px; */
+   /* background-size: 100px; */
+   box-sizing: border-box;
+   /* top: 10px;
+   bottom: 20px; */
+
+}
+.box{
+    width: 100%;
+    height: 155vh;
+    background-image: url(https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/299227674_600772811516630_538308386048906541_n.jpg?stp=dst-jpg_p843x403&_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=abXQIqMqlHAAX9cZCgJ&_nc_ht=scontent.fhan14-1.fna&oh=00_AT8zUHqopn6mQLz1n3RxZAi9VGqb3J71OQHz1TLtJY_6PA&oe=6308B62F);
+    background-size: 30% auto;
+    background-repeat: no-repeat;
+}
+.header{
+    width: 100%;
+    height: 45px;
+    background-color:#333;
+    position: fixed;
+    top: 0;
+}
+.nav{
+    min-height: 42px;
+    background-color: #EF5122;
+    display: flex;
+    /* align-items:center; */
+    /* flex-direction:column; */
+   justify-content:space-between;
+}
+.nav-list{
+    padding-left: 0px;
+    margin: auto 16px;
+
+}
+.nav-item{
+    color: #fff;
+    list-style: none;
+    margin: 10px 8px;
+    display: inline-block;
+}
+/* feature layout */
+.feature-layout{
+    margin-top: 36px;
+   margin-left:  20px;
+    display:inline-block;
+    
+    /* justify-content: space-between; */
+    background-color: hwb(60 29% 9%);
+    /* align-items: center; */
+    /* justify-content:space-between; */
+    /* flex-direction: row; */
+    /* flex: 1; */
+ 
+    
+    justify-content: space-around;
+    /* justify-content: center; */
+  
+}
+.feature-item{
+    /* padding: 12px 16px;
+    align-items: center;
+    margin: 40px; justify-content: center;
+    /* background-color: #EF5122; */
+    
+   /* color: rgb(10, 16, 15); */
+  
+   /* -webkit-backdrop-filter: sepia(100%);
+   backdrop-filter: sepia(100%); */
+
+   padding: 10%;
+   margin: 10%;
+  
+ background-color: rgba(255, 255, 255, 0.4);
+
+
+}
+.featureitem{
+    flex: 1;
+ 
+    justify-content: center;
+    flex-direction: row;
+}
+/* .feature-item:nth-child(2){
+    background-color: aqua;
+}
+.feature-item:nth-child(3){
+    background-color: beige;
+} */
